@@ -306,11 +306,11 @@ const PostDetail = ({ post }) => {
         </header>
 
         {/* Content */}
-        <div
-          className="post-content mb-16"
-          dangerouslySetInnerHTML={{ __html: post.content }}
-        />
-
+        
+<div
+  className="post-content mb-16"
+  dangerouslySetInnerHTML={{ __html: post.content.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&') }}
+/>
         {/* Author bio */}
         {post.author?.bio && (
           <div className="border border-[rgba(0,255,65,0.1)] bg-[#041008] p-6 mb-16"
