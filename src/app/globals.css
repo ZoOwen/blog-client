@@ -63,3 +63,63 @@ body {
 ::-webkit-scrollbar-track { background: #020b04; }
 ::-webkit-scrollbar-thumb { background: rgba(0,255,65,0.2); border-radius: 2px; }
 ::-webkit-scrollbar-thumb:hover { background: rgba(0,255,65,0.4); }
+
+.post-content p {
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
+  color: #b8d4b0;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  font-family: 'Orbitron', monospace;
+  color: #00ff41;
+  margin: 2rem 0 1rem;
+  letter-spacing: 2px;
+}
+
+.post-content strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.post-content em {
+  color: #00ff41;
+  font-style: normal;
+}
+
+.post-content hr {
+  border: none;
+  border-top: 1px solid rgba(0,255,65,0.1);
+  margin: 2rem 0;
+}
+
+.post-content code {
+  font-family: 'Share Tech Mono', monospace;
+  background: #041008;
+  color: #00ff41;
+  padding: 2px 8px;
+  font-size: 13px;
+  border: 1px solid rgba(0,255,65,0.15);
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  color: #b8d4b0;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.8;
+}
+
+.post-content blockquote {
+  border-left: 2px solid #00ff41;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: #2e5c38;
+  font-style: italic;
+}
